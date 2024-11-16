@@ -1,0 +1,29 @@
+.custom-slider {
+    height: 360px !important; /* Mengatur tinggi slider */
+}
+
+.carousel-inner {
+    height: 100%; /* Menjamin carousel-inner memiliki tinggi 100% */
+}
+
+.carousel-item {
+    height: 100%; /* Menjamin setiap item carousel mengisi penuh container */
+}
+
+.carousel-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Menyusun gambar di tengah vertikal */
+    height: 100%; /* Mengisi seluruh tinggi item carousel */
+}
+
+img {
+    max-width: 100% !important;
+    height: auto; /* Menjaga aspek rasio gambar */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 30px;
+}
