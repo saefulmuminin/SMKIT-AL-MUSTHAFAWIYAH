@@ -5,303 +5,488 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PMB 2025 - SMKIT AL MUSTHAFAWIYAH</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="asset/style/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-    <!-- Banner Image -->
-    <img src="asset/img/flayer.jpg" class="img-fluid" alt="...">
 
-    <header class="text-center py-5">
-        <h2>Penerimaan Santri Baru</h2>
-        <h1>SMKIT Al Musthafawiyah</h1>
-        <p class="lead">Tahun Pelajaran 2025-2026</p>
-        <h2>Bidang Keahlian :</h2>
-        <h2>Farmasi Klinis dan Komunitas</h2>
-        <h2>Desain Komunikasi Visual (DKV)</h2>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- Logo di Kiri -->
+            <a class="navbar-brand" href="#">
+                <img src="asset/img/LOGO SOSMED HITAM.png" alt="Logo" class="img-fluid" style="height: 60px;">
+            </a>
+    
+            <!-- Toggler untuk Layar Kecil -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Menu Navbar -->
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimoni">Testimoni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fasilitas">Fasilitas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
 
-    <!-- Image Carousel -->
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-6">
-                <div id="carouselExampleIndicators" class="carousel slide custom-slider" data-bs-ride="carousel">
+    <div class="container my-4">
+        <!-- Banner Image -->
+        <img src="asset/img/flayer.jpg" class="img-fluid rounded" alt="Promotional Flyer">
+    </div>
+    <section class="container py-5">
+        <div class="row align-items-center position-relative">
+            <!-- Shape Background (Taupe) -->
+            <div class="position-absolute top-0 start-0 w-100 h-100 bg-light" style="z-index: -1; opacity: 0.1;"></div>
+    
+            <!-- Bagian Teks -->
+            <div class="col-md-6 text-center text-md-start">
+                <!-- Judul Utama -->
+                <h2 class="h4 fw-bold text-teal mb-3" style="letter-spacing: 1px;">Penerimaan Santri Baru</h2>
+                <h1 class="display-5 fw-bold text-teal mb-4" style="font-family: 'Poppins', sans-serif;">
+                    SMKIT Al Musthafawiyah
+                </h1>
+    
+                <!-- Subjudul dan Deskripsi -->
+                <p class="fs-5 text-muted mb-4" style="line-height: 1.8;">
+                    Tahun Pelajaran <span class="fw-bold text-dark">2025-2026</span>
+                </p>
+    
+                <!-- Bidang Keahlian -->
+                <h3 class="h5 fw-semibold text-dark mb-3" style="font-family: 'Roboto', sans-serif;">Bidang Keahlian:</h3>
+                <ul class="list-unstyled text-start d-inline-block">
+                    <li class="text-muted mb-2" style="font-size: 1.1rem;">
+                        <i class="bi bi-check-circle-fill text-teal me-2"></i> 
+                        <span style="font-family: 'Roboto', sans-serif;">Farmasi Klinis dan Komunitas</span>
+                    </li>
+                    <li class="text-muted mb-2" style="font-size: 1.1rem;">
+                        <i class="bi bi-check-circle-fill text-teal me-2"></i> 
+                        <span style="font-family: 'Roboto', sans-serif;">Desain Komunikasi Visual (DKV)</span>
+                    </li>
+                </ul>
+    
+                <!-- Tombol Daftar -->
+                <div class="mt-4">
+                    <a href="#form-pendaftaran" class=" text-white text-decoration-none btun-teal btn-lg px-4 py-3 shadow" style="font-family: 'Poppins', sans-serif; border-radius: 30px;">
+                        Daftar Sekarang
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Bagian Gambar -->
+            <div class="col-md-6 text-center mt-4 mt-md-0">
+                <div class="ratio ratio-16x9 shadow-lg rounded">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cALtZ0FmBic?si=uwo3a4TMFQUkRYcO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>            
+        </div>
+    </section>
+    
+    <section class="container py-5">
+        <div class="row align-items-center">
+            <!-- Accordion -->
+            <div class="col-md-6 mt-4 mt-md-0">
+                <div class="accordion shadow rounded" id="accordionExample">
+                    <!-- Pendidikan Vokasi -->
+                    <h2 class="text-center mb-4">MENGAPA HARUS SMKIT AL MUSTHAFAWIYAH</h2>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Pendidikan Vokasi di Era Modern Berbasis Pondok Pesantren
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                SMKIT Al Musthafawiyah menggabungkan pendidikan formal SMK dengan nilai-nilai Islam. Lulusan SMKIT tidak hanya siap kerja tetapi juga mandiri, berakhlak mulia, dan mampu menerapkan nilai-nilai keislaman dalam kehidupan sehari-hari. 
+                                <br><br>
+                                Santri SMKIT belajar kurikulum nasional dan dilengkapi pendidikan khas pesantren seperti Tahsin Al-Quran (Sertifikasi Qiroati), Tahfiz Al-Qur'an, Kitab Kuning, dan berbagai program pendidikan Islam lainnya.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Lingkungan Pembentukan Karakter -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Lingkungan yang Mendukung Pembentukan Karakter
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Dengan berbasis pesantren, SMKIT Al Musthafawiyah menekankan pembentukan akhlak dan kepribadian Islami. 
+                                <br><br>
+                                Santri tinggal di asrama dengan lingkungan yang kondusif, mendapat bimbingan dari ustadz/ustadzah, dan diarahkan menjadi pribadi dengan integritas, etika Islami, dan jiwa kepemimpinan.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fasilitas Pembelajaran -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Fasilitas Pembelajaran yang Menunjang
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Lokasi SMKIT Al Musthafawiyah berada di Kecamatan Megamendung arah Puncak Bogor dengan udara sejuk dan fasilitas lengkap seperti masjid, laboratorium, perpustakaan, dan sarana olahraga. Lingkungan ini sangat menunjang pembelajaran akademik dan non-akademik.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Program Ekstrakurikuler -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Program Ekstrakurikuler untuk Mengembangkan Potensi
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Beragam ekstrakurikuler disediakan untuk mengasah bakat santri, mulai dari olahraga seperti Basket, Futsal, Panahan hingga seni seperti hadroh dan pembinaan kepemimpinan melalui LDKS. Santri memiliki kesempatan mengembangkan potensi diri secara optimal.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel -->
+            <div class="col-md-6">
+                <div id="carouselExample" class="carousel slide shadow rounded">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div class="carousel-img-container d-flex justify-content-center">
-                                <img src="asset/img/falyer2.jpg" class="d-block w-100" alt="...">
-                            </div>
+                            <img src="asset/img/DC 2181 - FLYER SMK DKV final.jpg" class="d-block w-100 rounded" alt="Flyer SMK DKV">
                         </div>
                         <div class="carousel-item">
-                            <div class="carousel-img-container d-flex justify-content-center">
-                                <img src="asset/img/falyer1.jpg" class="d-block w-100" alt="...">
-                            </div>
+                            <img src="asset/img/DC 2181 - FLYER SMKIT final.jpg" class="d-block w-100 rounded" alt="Flyer SMKIT">
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                        data-bs-slide="prev">
-                        <i class="fas fa-chevron-left"></i>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                        data-bs-slide="next">
-                        <i class="fas fa-chevron-right"></i>
-                    </a>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
+    
+            
         </div>
-    </div>
-
-    <!-- Centered Daftar Button -->
-    <div class="d-flex justify-content-center my-3 ">
-        <button type="button" class="btn btn-danger btn-lg fw-bold px-5 py-3 rounded-pill">DAFTAR</button>
-    </div>
-
-    <!-- Informational Sections -->
-    <div class="container py-3">
-        <!-- Title -->
-        <h1 class="text-center mb-4">MENGAPA HARUS SMKIT AL MUSTHAFAWIYAH</h1>
-
-        <!-- Section 1 -->
-        <div class="card mb-4">
-            <div class="card-header fw-bold fw-bold">
-                Pendidikan Vokasi di Era Modern Berbasis Pondok Pesantren
+    </section>
+    <!-- Section: Ayah/Bunda/Ananda Tertarik -->
+    <section class=" container bg-teal py-4 text-white text-center rounded ">
+            <h2 class="mb-4">Ayah/Bunda/Ananda Tertarik?</h2>
+            <p class="mb-4 text-light">
+                Mari Bergabung Bersama Kami. Klik tombol di bawah ini untuk memulai pendaftaran atau menghubungi kami untuk informasi lebih lanjut.
+            </p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="pendaftaran.html" class="btn rounded text-decoration-none btn-light btn-lg px-4 py-2">
+                    Daftar Sekarang
+                </a>
+                <a href="tel:+6281234567890" class="btn btn-outline-light btn-lg px-4 py-2">
+                    Hubungi Kami
+                </a>
             </div>
-            <div class="card-body">
-                <p>SMKIT Al Musthafawiyah menggabungkan pendidikan formal SMK dengan nilai-nilai Islam. Karena kami
-                    yakin bahwa lulusan pendidikan SMK tidak hanya bertujuan untuk mempersiapkan lulusan agar siap kerja
-                    dan mengembangkan keterampilan serta pengetahuan praktis namun juga generasi yang mandiri serta
-                    berakhlak mulia yang dapat menerapkan nilai-nilai keislaman dalam segala aspek kehidupannya.</p>
-                <p>Karena itu Santri SMKIT Al Musthafawiyah tidak hanya belajar kurikulum nasional, tetapi juga dibekali
-                    dengan Kurikulum khas Kepesantrenan Al Musthafawiyah yaitu pendidikan agama yang kuat, seperti
-                    Tahsin Al-Quran (Sertifikasi Qiroati), Tahfiz Al-Qur'an, Kitab Kuning (Al Miftah Lil Ulum), Usbu‘il
-                    arobi (Pekan Berbahasa Arab), serta kegiatan kepesantrenan lainnya.</p>
-            </div>
-        </div>
-
-        <!-- Section 2 -->
-        <div class="card mb-4">
-            <div class="card-header fw-bold">
-                Lingkungan yang Mendukung Pembentukan Karakter
-            </div>
-            <div class="card-body">
-                <p>Dengan berbasis pesantren, SMKIT Al Musthafawiyah menekankan pada pembentukan akhlak dan kepribadian
-                    Islami yang kuat. Santri tinggal di pondok yang memberikan lingkungan kondusif untuk membentuk
-                    disiplin, kemandirian, dan tanggung jawab. Santri tidak hanya diajarkan untuk unggul dalam akademik,
-                    tetapi santri juga mendapatkan bimbingan intensif dari pimpinan pondok pesantren dan para ustadz /
-                    ustadzah untuk dipersiapkan menjadi pribadi yang memiliki integritas, etika Islami, dan jiwa
-                    kepemimpinan.</p>
-            </div>
-        </div>
-
-        <!-- Section 3 -->
-        <div class="card mb-4">
-            <div class="card-header fw-bold">
-                Fasilitas Pembelajaran yang Menunjang Pembelajaran
-            </div>
-            <div class="card-body">
-                <p>Lokasi SMKIT Al Musthafawiyah berada di Kecamatan Megamendung arah Puncak Bogor. Dengan lingkungan
-                    sosial yang kondusif, udara yang sejuk, air bersih, asrama yang nyaman serta fasilitas memadai mulai
-                    dari masjid, laboratorium, perpustakaan, sarana olahraga, dan lain-lain sehingga sangat menunjang
-                    dalam pembelajaran perkembangan akademik dan non akademik.</p>
-            </div>
-        </div>
-
-        <!-- Section 4 -->
-        <div class="card mb-4">
-            <div class="card-header fw-bold">
-                Program Ekstrakurikuler untuk Mengambangkan Potensi
-            </div>
-            <div class="card-body">
-                <p>Beragam pilihan kegiatan ekstrakurikuler disediakan untuk mengembangkan potensi dan mengasah bakat
-                    santri, seperti olahraga (Basket, Futsal, Panahan, Pencak Silat, Pramuka, Paskibra), di bidang seni
-                    (hadroh) hingga Pembinaan Kepemimpinan / LDKS. Ini memberikan kesempatan bagi santri untuk
-                    mengembangkan potensi diri secara optimal.</p>
-            </div>
-        </div>
-
-    </div>
-    <div class="container text-center py-3">
-        <h2>Ayah/Bunda/Ananda Tertarik?</h2>
-        <p class="lead">Mari Bergabung Bersama Kami</p>
-        <p>Klik tombol di bawah ini untuk memulai pendaftaran.</p>
-
-        <div class="d-flex flex-column flex-md-row justify-content-center gap-3 mt-4">
-            <a href="https://registrasi.assyifa.sch.id/registrasi"
-                class="btn btn-danger btn-lg fw-bold px-5 py-3 rounded-pill mb-3 mb-md-0">Daftar Sekarang</a>
-            <a href="https://api.whatsapp.com/send/?phone=081122223934&text&type=phone_number&app_absent=0"
-                class="btn btn-primary btn-lg fw-bold px-5 py-3 rounded-pill">Hubungi Kami</a>
-        </div>
-    </div>
-
-    <div class="container py-3">
-        <!-- Hal yang Dipelajari Section -->
-        <h2 class="text-right mb-4 bg-danger fw-bold rounded p-2 text-white">HAL YANG DIPELAJARI</h2>
-
-        <div class="row mb-5">
-            <!-- Farmasi Klinis dan Komunitas -->
-            <div class="col-12 col-md-6">
-                <h3 class="text-center">BIDANG KEAHLIAN<br>FARMASI KLINIS DAN KOMUNITAS</h3>
-                <ul>
-                    <li>Healthpreneur Farmasi, Peluang usaha / kerja dibidang teknologi farmasi</li>
-                    <li>Teknologi dasar kefarmasian</li>
-                    <li>Undang-undang Kesehatan</li>
-                    <li>Tanaman Obat</li>
-                    <li>Pelayanan dan administrasi Farmasi</li>
-                    <li>Farmakologi</li>
-                    <li>Farmakognosi</li>
-                    <li>Kimia Farmasi Analisis</li>
-                </ul>
-            </div>
-
-            <!-- Desain Komunikasi Visual (DKV) -->
-            <div class="col-12 col-md-6">
-                <h3 class="text-center">BIDANG KEAHLIAN<br>DESAIN KOMUNIKASI VISUAL (DKV)</h3>
-                <ul>
-                    <li>Technopreneur profesi DKV</li>
-                    <li>Teknik dasar proses industry DKV</li>
-                    <li>Sketsa dan Ilustrasi</li>
-                    <li>Fotografi</li>
-                    <li>Komputer Grafis</li>
-                    <li>Perangkat Lunak Design</li>
-                    <li>Design Brief</li>
-                    <li>Proses prosuksi desain</li>
-                    <li>Web Design</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Prospek Kerja Section -->
-        <h2 class="text-right mb-4 bg-primary fw-bold rounded p-2 text-white "
-            style="font-size: 2.5rem; letter-spacing: 2px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);">
-            PROSPEK KERJA
-        </h2>
+    </section>
+    
+    
 
 
+    <!-- Section: Hal yang Dipelajari -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">HAL YANG DIPELAJARI</h2>
         <div class="row">
-            <!-- Farmasi Klinis dan Komunitas Prospects -->
-            <div class="col-12 col-md-6">
-                <h3 class="text-center">BIDANG KEAHLIAN<br>FARMASI KLINIS DAN KOMUNITAS</h3>
-                <ul>
-                    <li>Tenaga Teknis Kefarmasian di Apotek</li>
-                    <li>Bekerja di Industri Farmasi dan Klinik Kecantikan</li>
-                    <li>Bekerja di Lembaga Penelitian Sains</li>
-                    <li>Bekerja di Rumah Sakit / Balai Kesehatan</li>
-                    <li>Peluang untuk berwirausaha</li>
-                </ul>
-            </div>
-
-            <!-- Desain Komunikasi Visual (DKV) Prospects -->
-            <div class="col-12 col-md-6">
-                <h3 class="text-center">BIDANG KEAHLIAN<br>DESAIN KOMUNIKASI VISUAL (DKV)</h3>
-                <ul>
-                    <li>Desainer Web atau Desainer Multimedia pada industri multimedia / web</li>
-                    <li>Animator pada industri game developer dan multimedia</li>
-                    <li>Ilustrator pada industri periklanan</li>
-                    <li>Motion Graphic Artist pada industri rumah</li>
-                    <li>Produksi dan Stasiun Televisi</li>
-                    <li>Game modeler pada industri Developer</li>
-                    <li>Videographer / Video Editor pada industri rumah produksi</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container py-3">
-        <h1 class="text-center mb-4">TESTIMONI</h1>
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-6">
-                <div id="carouselExampleIndicators" class="carousel slide custom-slider" data-bs-ride="carousel">
-                    <div class="carousel-inner h-100">
-                        <div class="carousel-item active">
-                            <div class="carousel-img-container d-flex justify-content-center">
-                                <img src="asset/img/testi1.jpg" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="carousel-img-container d-flex justify-content-center">
-                                <img src="asset/img/testi2.jpg" class="d-block w-100 h-100" alt="...">
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="carousel-img-container d-flex justify-content-center">
-                                <img src="asset/img/testi3.jpg" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
+            <!-- Bidang Keahlian Farmasi -->
+            <div class="col-md-6 mb-4">
+                <div class="card shadow border-0">
+                    <div class="card-body">
+                        <h4 class="text-secondary">FARMASI KLINIS DAN KOMUNITAS</h4>
+                        <ul class="list-unstyled mt-3">
+                            <li class="mb-2">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i> Healthpreneur Farmasi, Peluang usaha / kerja di bidang teknologi farmasi
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i> Teknologi dasar kefarmasian
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i> Undang-undang Kesehatan
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i> Tanaman Obat
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i> Pelayanan dan administrasi Farmasi
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i> Farmakologi
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i> Farmakognosi
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle-fill text-success me-2"></i> Kimia Farmasi Analisis
+                            </li>
+                        </ul>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                        data-bs-slide="prev">
-                        <i class="fas fa-chevron-left"></i>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                        data-bs-slide="next">
-                        <i class="fas fa-chevron-right"></i>
-                    </a>
+                </div>
+            </div>
+            <!-- Bidang Keahlian DKV -->
+            <div class="col-md-6">
+                <div class="card shadow border-0">
+                    <div class="card-body">
+                        <h4 class="text-secondary">DESAIN KOMUNIKASI VISUAL (DKV)</h4>
+                        <ul class="list-unstyled mt-3">
+                            <li class="mb-2">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i> Technopreneur profesi DKV
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i> Teknik dasar proses industri DKV
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i> Sketsa dan Ilustrasi
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i> Fotografi
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i> Komputer Grafis
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i> Perangkat Lunak Design
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i> Design Brief
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle-fill text-success me-2"></i> Proses produksi desain
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-
     </div>
+</section>
+
+
+    <!-- Section: Grid Gambar -->
+<section class="py-5 container bg-teal rounded">
+    
+        <h2 class="text-center mb-5 text-white">TESTIMONI</h2>
+        <div class="row">
+            <!-- Gambar 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card border-0 shadow">
+                    <img src="asset/img/testi1.jpeg" class="card-img-top rounded" alt="Gambar 1">
+                </div>
+            </div>
+            <!-- Gambar 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card border-0 shadow">
+                    <img src="asset/img/testi2.jpeg" class="card-img-top rounded" alt="Gambar 2">
+                </div>
+            </div>
+            <!-- Gambar 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card border-0 shadow">
+                    <img src="asset/img/testi3.jpeg" class="card-img-top rounded" alt="Gambar 3">
+                </div>
+            </div>
+        </div>
+</section>
+
     <section class="container text-center my-3">
         <!-- Menggunakan kelas gradient-text, animated-text, dan shadow-text pada h1 -->
         <h1 class="fw-bold gradient-text animated-text shadow-text">KEGIATAN HARIAN SANTRI</h1>
         <img src="asset/img/kegiatan.png" class="img-fluid" alt="Gambar Responsif">
     </section>
 
-    <div class="container my-5">
-        <!-- Fasilitas Section -->
-        <section>
-            <h2 class="section-title text-center mb-4">Fasilitas</h2>
-            <ul class="list-group">
-                <li class="list-group-item">Mesjid berkapasitas ±900 jamaah</li>
-                <li class="list-group-item">Sarana Outdoor Edukatif</li>
-                <li class="list-group-item">Saung Pertemuan</li>
-                <li class="list-group-item">Ruang Kelas</li>
-                <li class="list-group-item">Ruang Multimedia</li>
-                <li class="list-group-item">Laboratorium Farmasi</li>
-                <li class="list-group-item">Lembaga Sertifikasi Profesi (LSP) Farmasi</li>
-                <li class="list-group-item">Asrama Putra dan Putri</li>
-                <li class="list-group-item">Aula Putra dan Putri</li>
-                <li class="list-group-item">Perpustakaan Putra dan Putri</li>
-                <li class="list-group-item">Ruang Makan Putra dan Putri</li>
-                <li class="list-group-item">Kantin Putra dan Putri</li>
-                <li class="list-group-item">Ruang UKS / Klinik</li>
-                <li class="list-group-item">Ruang OSIS / OSMA</li>
-                <li class="list-group-item">Sarana Olahraga (Futsal, Basket, Badminton)</li>
-                <li class="list-group-item">Lahan Parkir yang luas</li>
-                <li class="list-group-item">Alam Sejuk dan Nyaman</li>
-                <li class="list-group-item">Minimarket</li>
-                <li class="list-group-item">Security 24 Jam</li>
-            </ul>
-        </section>
 
-        <!-- Keunggulan Section -->
-        <section class="mt-5">
-            <h2 class="section-title text-center mb-4">Keunggulan SMKIT Farmasi Al Musthafawiyah</h2>
-            <p>Yakin tidak ingin bergabung?</p>
-            <p><span class="highlight">Lulusan SMK Bidang Keahlian Farmasi dan DKV</span> saat ini banyak memiliki
-                peminat berpeluang siap kerja atau melanjutkan kuliah sesuai profesi yang diinginkan.</p>
-            <p><span class="highlight">Keunggulan SMKIT Farmasi Al Musthafawiyah</span> adalah santri lulus dengan
-                Sertifikasi Profesi Teknisi Farmasi dan Asisten Apoteker. Dengan pembelajaran Teaching Factory,
-                santri siap kerja dalam bidang rumah sakit, laboratorium obat, industri kosmetik dan obat
-                tradisional, serta usaha di bidang farmasi.</p>
-            <p>Sementara itu, <span class="highlight">Lulusan SMKIT DKV Al Musthafawiyah</span> dapat menjadi
-                seorang Content Creator, Graphic Designer, Fotografer, Illustrator, dan lainnya. Menjadi
-                Technopreneur atau pelaku Ekonomi Kreatif yang bersaing di dunia Industri DKV.</p>
-        </section>
-
-        <!-- Informasi Pendaftaran Section -->
-        <section class="mt-5 text-center">
-            <h3 class="mb-4">Untuk informasi dan pendaftaran, silahkan ayah bunda membuka link berikut:</h3>
-            <a href="https://psb.almusthafawiyah.sch.id" target="_blank" class="btn btn-primary mb-4">Penerimaan
-                Santri Baru SMKIT Al Musthafawiyah</a>
-            <p><span class="highlight">Ayah/Bunda/Ananda Tertarik?</span> Mari Bergabung Bersama Kami</p>
-            <a href="#" class="btn btn-success me-2">Daftar Sekarang</a>
-            <a href="#" class="btn btn-info">Hubungi Kami</a>
-        </section>
-    </div>
+    <section class="container py-5 ">
+        <div class="row">
+            <h2 class="text-center text-3xl font-bold mb-5">Fasilitas Kami</h2>
+    
+            <!-- Grid Fasilitas -->
+            <div class="col-md-12">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <!-- Fasilitas -->
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-mosque text-3xl text-blue-500 mb-2"></i>
+                            <p class="font-medium text-gray-700">Mesjid berkapasitas ±900 jamaah</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-tree text-3xl text-green-500 mb-2"></i>
+                            <p class="font-medium text-gray-700">Sarana Outdoor Edukatif</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-hands-helping text-3xl text-orange-500 mb-2"></i>
+                            <p class="font-medium text-gray-700">Saung Pertemuan</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-chalkboard-teacher text-3xl text-purple-500 mb-2"></i>
+                            <p class="font-medium text-gray-700">Ruang Kelas</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-tv text-3xl text-indigo-500 mb-2"></i>
+                            <p class="font-medium text-gray-700">Ruang Multimedia</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-flask text-3xl text-red-500 mb-2"></i>
+                            <p class="font-medium text-gray-700">Laboratorium Farmasi</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-certificate text-3xl text-yellow-500 mb-2"></i>
+                            <p class="font-medium text-gray-700">Lembaga Sertifikasi Profesi (LSP) Farmasi</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-bed text-3xl text-teal-500 mb-2"></i>
+                            <p class="font-medium text-gray-700">Asrama Putra dan Putri</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-building text-3xl text-blue-400 mb-2"></i>
+                            <p class="font-medium text-gray-700">Aula Putra dan Putri</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-book text-3xl text-green-400 mb-2"></i>
+                            <p class="font-medium text-gray-700">Perpustakaan Putra dan Putri</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-utensils text-3xl text-orange-400 mb-2"></i>
+                            <p class="font-medium text-gray-700">Ruang Makan Putra dan Putri</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-store text-3xl text-purple-400 mb-2"></i>
+                            <p class="font-medium text-gray-700">Kantin Putra dan Putri</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-first-aid text-3xl text-red-400 mb-2"></i>
+                            <p class="font-medium text-gray-700">Ruang UKS / Klinik</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-users text-3xl text-yellow-400 mb-2"></i>
+                            <p class="font-medium text-gray-700">Ruang OSIS / OSMA</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-futbol text-3xl text-green-500 mb-2"></i>
+                            <p class="font-medium text-gray-700">Sarana Olahraga</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-parking text-3xl text-teal-500 mb-2"></i>
+                            <p class="font-medium text-gray-700">Lahan Parkir yang luas</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-leaf text-3xl text-blue-400 mb-2"></i>
+                            <p class="font-medium text-gray-700">Alam Sejuk dan Nyaman</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm rounded-lg hover:bg-gray-200 transition">
+                            <i class="fas fa-shopping-cart text-3xl text-orange-400 mb-2"></i>
+                            <p class="font-medium text-gray-700">Minimarket</p>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="p-4 container bg-teal text-white shadow-sm   transition">
+                            <i class="fas fa-shield-alt text-3xl text-red-500 mb-2"></i>
+                            <p class="font-medium text-gray-700">Security 24 Jam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container py-2">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rfMANYa0EW4?si=UxURsshlFz_8M6B9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center mb-4">Keunggulan SMKIT Farmasi Al Musthafawiyah</h2>
+                <p class="text-center fs-5 fw-semibold mb-5">Yakin tidak ingin bergabung?</p>
+            </div>
+            <div class="col-md-12">
+                <p class="fs-6 mb-4">
+                    Lulusan SMK Bidang Keahlian Farmasi dan DKV saat ini banyak memiliki peminat, berpeluang siap kerja atau melanjutkan kuliah sesuai profesi yang diinginkan.
+                </p>
+                <p class="fs-6 mb-4">
+                    Keunggulan <span class="fw-bold">SMKIT Farmasi Al Musthafawiyah</span> adalah santri lulus dengan <span class="fw-bold">Sertifikasi Profesi Teknisi Farmasi dan Asisten Apoteker</span>. Dengan pembelajaran <span class="fw-bold">Teaching Factory</span>, santri siap kerja dalam bidang rumah sakit, laboratorium obat, industri kosmetik dan obat tradisional, serta usaha di bidang farmasi.
+                </p>
+                <p class="fs-6 mb-4">
+                    Sementara itu, Lulusan SMKIT DKV Al Musthafawiyah dapat menjadi seorang <span class="fw-bold">Content Creator, Graphic Designer, Fotografer, Illustrator</span>, dan lainnya. Menjadi <span class="fw-bold">Technopreneur</span> atau pelaku Ekonomi Kreatif yang bersaing di dunia Industri DKV.
+                </p>
+            </div>
+            <div class="col-md-12 text-center">
+                <p class="fs-6 mb-3">
+                    Untuk informasi dan pendaftaran, silahkan ayah bunda membuka link berikut:
+                </p>
+                <a href="#" class="btn btn-success btn-lg"> Mari Bergabung Bersama Kami</a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2024 Copyright:
+          <a class="text-body" href="">SMKIT Farmasi Al Musthafawiyah</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
 
     <!-- Bootstrap 5 JS and Bootstrap Bundle for Carousel -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
